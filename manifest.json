@@ -1,0 +1,24 @@
+{
+    "name": "Cat extension",
+    "version": "1.0.0.0",
+    "description": "This extension makes all the image on your current web page turn to the cat images.",
+    "manifest_version": 2,
+	"permissions": ["activeTab", "declarativeContent"],
+	"background": {
+	  "scripts": ["script.js"],
+	  "persistent": false
+	},
+    "icons": {
+	    "16": "images/poop_16.png",
+	    "32": "images/poop_32.png",
+	    "48": "images/poop_48.png",
+	    "128": "images/poop_128.png"
+    },
+    "page_action": {
+	  "default_icon": {
+	    "16": "images/bear_16.png",
+	    "32": "images/bear_32.png",
+	    "48": "images/bear_48.png",
+	    "128": "images/bear_128.png"
+	  }
+	}}
